@@ -1,0 +1,46 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+#cameraContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+#solverContainer > canvas{
+    width: 49vmin;
+    height: 49vmin;
+}
+#captureButton {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    width: 25vmin;
+    height: 25vmin;
+    transform: translate(-50%, -50%);
+    border-color: none;
+    border-radius: 50%; /* 使按钮变为圆形 */
+    background: red;
+}
+.solverContainer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden
+}
+
+#captureImage{
+    width: 100%;
+    height: 100%;
+    border-color: none;
+    border-radius: 50%;
+    opacity: 0;
+}
